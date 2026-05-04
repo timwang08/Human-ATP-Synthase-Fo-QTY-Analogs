@@ -8,4 +8,4 @@
 
 **Conclusion**:  These structural bioinformatics studies suggest that the QTY code can be applied to ATP synthase Fo subunits to generate more hydrophilic, potentially water-soluble analogs while preserving overall structural similarity. These results extend the application of the QTY code to the membrane-embedded Fo sector of ATP synthase and provide a foundation for future experimental studies testing whether these QTY analogs can be expressed, purified, and evaluated for assembly or proton-transfer-related functions.
 
-> **CIF files do not have unstructured or low-confidence loops removed.** <
+**CIF files do not have unstructured or low-confidence loops removed.**
