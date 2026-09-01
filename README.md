@@ -19,7 +19,7 @@ The eight proteins analyzed were:
 
 The repository contains the files, including:
 - Full, untruncated QTY-designed amino-acid sequences
-- Truncated QTY-designed amino-acid sequences used as AlphaFold3 inputs when applicable
+- Truncated QTY-designed amino-acid sequences with unstructured residues removed
 - AlphaFold3-predicted QTY structures
 - AlphaFold3-predicted native structures used for comparison
 
