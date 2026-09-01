@@ -1,11 +1,28 @@
 # Human-ATP-Synthase-Fo-QTY-Analogs
 
-**Objective**: Human mitochondrial ATP synthase is an essential rotary motor enzyme that produces most of the cellular ATP through oxidative phosphorylation. Its membrane-embedded Fo sector contains highly hydrophobic transmembrane subunits that are challenging to study in aqueous environments without detergents. This study explores whether applying the QTY code can reduce the hydrophobicity of selected ATP synthase Fo subunits while preserving their overall molecular structures.
+This repository contains sequence, structural modeling, and computational analysis data associated with the study of applying the QTY code to eight subunits of human ATP synthase F0. 
 
-**Methods**: We applied the QTY code to eight human ATP synthase Fo subunits: ATP6, ATP8, ATPK, ATP68, ATPMK, AT5G1, AT5G2, and AT5G3. Hydrophobic amino acids leucine (L), isoleucine (I), valine (V), and phenylalanine (F) in transmembrane regions were systematically replaced with hydrophilic glutamine (Q), threonine (T), and tyrosine (Y). Four native subunits with available CryoEM structures from human ATP synthase (PDB: 8H9S) were superposed with their AlphaFold3-predicted QTY analogs. For subunits without complete CryoEM structures, AlphaFold3-predicted native structures were superposed with their AlphaFold3-predicted QTY analogs.
+The QTY code replaces hydrophobic amino acids with hydrophilic ones: leucine (L) with glutamine (Q), isoleucine (I) and valine (V) with threonine (T), and phenylalanine (F) with tyrosine (Y). 
 
-**Results**: The native ATP synthase Fo subunits superposed well with their respective QTY analogs. For the CryoEM-native comparisons, RMSD values ranged from 0.565 Å to 2.546 Å. For the AlphaFold3-native comparisons of subunits without CryoEM structures, RMSD values ranged from 0.204 Å to 0.297 Å. Considering all eight subunits, despite substantial QTY substitutions in the transmembrane regions, ranging from 38.89% to 50.79%, the QTY analogs retained similar overall folds, molecular weights, and isoelectric points. Hydrophobic surface analysis showed that the QTY analogs had reduced hydrophobic patches compared with their native counterparts, with average hydrophobicity decreasing from 0.2959 in native proteins to -1.1023 in QTY analogs.
+The eight proteins analyzed were:
 
-**Conclusion**:  These structural bioinformatics studies suggest that the QTY code can be applied to ATP synthase Fo subunits to generate more hydrophilic, potentially water-soluble analogs while preserving overall structural similarity. These results extend the application of the QTY code to the membrane-embedded Fo sector of ATP synthase and provide a foundation for future experimental studies testing whether these QTY analogs can be expressed, purified, and evaluated for assembly or proton-transfer-related functions.
+| Protein label  |  UniProt accession |
+| ------------- | ------------- |
+| ATP6  | P00846  |
+| ATP8  | P03928  |
+| ATPK  | P56134  |
+| ATP68  | P56378  |
+| ATPMK  | Q96IX5  |
+| AT5G1 | P05496  |
+| AT5G2 | Q06055  |
+| AT5G3 | P48201  |
 
-**CIF files do not have unstructured or low-confidence loops removed.**
+The repository contains the files, including:
+- Full, untruncated QTY-designed amino-acid sequences
+- AlphaFold3-predicted QTY sequences
+- AlphaFold3-predicted native structures used for comparison
+
+The experimentally determined CryoEM structure used is under RCSB Protein Data Bank under accession 8H9S.
+
+
+
