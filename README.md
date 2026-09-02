@@ -20,8 +20,8 @@ The eight proteins analyzed were:
 The repository contains the files, including:
 - Full, untruncated QTY-designed amino-acid sequences
 - Truncated QTY-designed amino-acid sequences with unstructured residues removed
-- AlphaFold3-predicted QTY structures
-- AlphaFold3-predicted native structures used for comparison
+- AlphaFold3-predicted QTY structures (with truncated sequence)
+- AlphaFold3-predicted native structures (with truncated sequence) used for comparison
 
 The experimentally determined CryoEM structure used is under RCSB Protein Data Bank under accession 8H9S.
 
